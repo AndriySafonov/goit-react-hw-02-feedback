@@ -1,0 +1,14 @@
+.container{
+    padding: 25px;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+}
+.statistic-list{
+    margin-top: 15px;
+    padding: 0;
+}
+.statistic-item{
+    list-style-type: none;
+}
