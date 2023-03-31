@@ -10,13 +10,13 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <ul className={css.list}>
-        <li className={css.item}>Good: {good}</li>
-        <li className={css.item}>Neutral: {neutral}</li>
-        <li className={css.item}>Bad: {bad}</li>
+      <ul className={css.statistics_list}>
+        <li className={css.statistics_item}>Good: {good}</li>
+        <li className={css.statistics_item}>Neutral: {neutral}</li>
+        <li className={css.statistics_item}>Bad: {bad}</li>
       </ul>
       <p className={css.total}>Total: {total}</p>
-      <p className={css.feedback}>Positive feedback: {positivePercentage} %</p>
+      <p className={css.statistics_percentage}>Positive feedback: {positivePercentage} %</p>
     </>
   );
 };

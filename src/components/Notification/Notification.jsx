@@ -4,7 +4,7 @@ import css from './Notification.module.css';
 export const Notification = ({ title }) => {
   return (
     <>
-      <p className={css.message}>{title}</p>
+      <p className={css.notification}>{title}</p>
     </>
   );
 };
